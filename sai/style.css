@@ -1,0 +1,28 @@
+.container{
+    background-color: blueviolet;
+    width:600px;
+    text-align: center;
+    margin-top:200px;
+}
+button:hover{
+    background-color:rgb(50, 241, 50);
+    color:white;
+}
+h1{
+    color:deeppink;
+    font-family:"Golos Text";
+    font-weight:800;
+}
+#display{
+    color:deepskyblue;
+    font-size:20px
+}
+button{
+
+    background-color:orangered; 
+    color:rgb(236, 252, 53)
+}
+p{
+    color:gold;
+    font-size:15px;
+}
