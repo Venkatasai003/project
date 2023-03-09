@@ -15,7 +15,7 @@ buttonEle.onclick=function(){
     }
     else{
         let loc=inputEle.value
-       url=`https://api.openweathermap.org/data/2.5/weather?q=${loc}&cnt=5&units=metric&appid=${apikey}`
+       url=`https://api.openweathermap.org/data/2.5/weather?q=${loc}&units=metric&appid=${apikey}`
        //fetching the data from 
        fetch(url).then(res=>res.json())
        //this is resole state

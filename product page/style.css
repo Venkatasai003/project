@@ -1,0 +1,10 @@
+#contain{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background:linear-gradient(to right,#36d1dc,#004ae9);
+}
+.card{
+    margin-top:20px;
+}
